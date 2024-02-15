@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+
+<title>Congratulations</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="Mon.css">
+
+
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+
+
+
+
+
+
+</head>
+
+
+<body>
+
+  <p class="Heading">Congratulations to Mon</p>
+
+  <a class="Link" href="https://drive.google.com/drive/folders/1--z4ijylTI-CEpt09sGIoZh1sUg-SN-W" target="_blank">
+    คลิกแล้วรวย!!!
+  </a>
+
+
+  <div class="w3-content w3-section" style="max-width: 300px;">
+
+    <img class="mySlides w3-animate-fading" src="Photos/06B91D4A-C564-472A-A188-49ECE14CF529.jpg" style="width:100%">
+    <img class="mySlides w3-animate-fading" src="Photos/DFB8FD3A-1D5C-4B38-8782-F4F174D64504.jpg" style="width:100%">
+  </div>
+
+  <div>
+    <p class="Body">
+      ยินดีกับความสำเร็จนะ ต่อจากนี้ขอให้โชคดีกับเครื่องกลที่เลือกนะ
+    </p>
+  </div>
+
+
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 9000);
+    }
+  </script>
+</body>
+
+
+</html>
